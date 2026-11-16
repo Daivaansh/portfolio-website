@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daivaansh Chandok — Student Portfolio</title>
+<meta name="description" content="Daivaansh Chandok — student of Computer Science and Engineering (SMVIT) and BBA in Digital Business and Entrepreneurship (IIM Bangalore). Technology, business and finance.">
+<meta name="theme-color" content="#f6f1e4">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b1e3c'/%3E%3Ccircle cx='32' cy='32' r='26' fill='none' stroke='%23c9a557' stroke-width='2'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Georgia,serif' font-size='26' fill='%23f6f1e4'%3EDC%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#about">Skip to content</a>
+
+<!-- Monogram seal, reused in the nav and footer -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="seal" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="30" fill="none" stroke="#c9a557" stroke-width="1.5"/>
+    <circle cx="32" cy="32" r="26" fill="none" stroke="#c9a557" stroke-width=".75"/>
+    <text x="32" y="40.5" text-anchor="middle" font-family="Cormorant Garamond,Georgia,serif" font-weight="600" font-size="24" letter-spacing="1" fill="currentColor">DC</text>
+  </symbol>
+</svg>
+
+<!-- ============================ NAVIGATION ============================ -->
+<nav class="nav" aria-label="Primary">
+  <div class="nav__in">
+    <a class="nav__brand" href="#top" aria-label="Daivaansh Chandok — top of page">
+      <svg aria-hidden="true"><use href="#seal"/></svg><span>Portfolio · 2026</span>
+    </a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="top">
+
+<!-- ================================ HERO ================================
+     Pure-CSS intro. See the comment block above ".hero" in style.css.
+     A type-led hero: the name decrypts letter by letter.                  -->
+<header class="hero">
+  <div class="hero__stage">
+
+    <div class="copy">
+      <div>
+        <p class="eyebrow rise" style="--d:5.7s">Student Portfolio &middot; 2026</p>
+
+        <!-- EDIT: name. Each letter is its own span so it can "decrypt". -->
+        <h1 class="name" aria-label="Daivaansh Chandok">
+          <span class="name__line" aria-hidden="true"><span class="ch" style="--k:0">D</span><span class="ch" style="--k:1">A</span><span class="ch" style="--k:2">I</span><span class="ch" style="--k:3">V</span><span class="ch" style="--k:4">A</span><span class="ch" style="--k:5">A</span><span class="ch" style="--k:6">N</span><span class="ch" style="--k:7">S</span><span class="ch" style="--k:8">H</span></span>
+          <span class="name__line" aria-hidden="true"><span class="ch" style="--k:9">C</span><span class="ch" style="--k:10">H</span><span class="ch" style="--k:11">A</span><span class="ch" style="--k:12">N</span><span class="ch" style="--k:13">D</span><span class="ch" style="--k:14">O</span><span class="ch" style="--k:15">K</span></span>
+        </h1>
+
+        <!-- EDIT: each discipline sits directly above the institution it belongs to. -->
+        <dl class="sub rise" style="--d:7.2s">
+          <div><dt>Computer Science</dt><dd>SMVIT</dd></div>
+          <div><dt>Business</dt><dd>IIM Bangalore</dd></div>
+        </dl>
+        <p class="lede rise" style="--d:7.5s">A student building at the intersection of technology, finance and business &mdash; curious about partnerships, entrepreneurship and fintech.</p>
+        <div class="cta rise" style="--d:7.9s">
+          <a class="btn btn--solid" href="#about">About me</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EDIT: ticker. Keep the two identical copies so the loop is seamless. -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span><b>Finalist</b> &mdash; SAP Hackfest 2026 &nbsp;//&nbsp; <b>2nd place</b> &mdash; Investors Dilemma, SMVIT &nbsp;//&nbsp; <b>IIM Bangalore</b> &mdash; BBA, Digital Business &amp; Entrepreneurship &nbsp;//&nbsp; <b>CUET GAT</b> &mdash; approx. 99.75 percentile &nbsp;//&nbsp; <b>Finlatics</b> &mdash; Financial Markets Program &nbsp;//&nbsp; <b>Student</b> &mdash; open to internships &amp; collaborations &nbsp;//&nbsp;</span>
+      <span><b>Finalist</b> &mdash; SAP Hackfest 2026 &nbsp;//&nbsp; <b>2nd place</b> &mdash; Investors Dilemma, SMVIT &nbsp;//&nbsp; <b>IIM Bangalore</b> &mdash; BBA, Digital Business &amp; Entrepreneurship &nbsp;//&nbsp; <b>CUET GAT</b> &mdash; approx. 99.75 percentile &nbsp;//&nbsp; <b>Finlatics</b> &mdash; Financial Markets Program &nbsp;//&nbsp; <b>Student</b> &mdash; open to internships &amp; collaborations &nbsp;//&nbsp;</span>
+    </div>
+  </div>
+
+  <div class="dip dip--a" aria-hidden="true"></div>
+  <div class="dip dip--b" aria-hidden="true"></div>
+</header>
+
+<!-- ============================ 01 ABOUT =============================== -->
+<section class="sheet" id="about" aria-labelledby="h-about">
+  <div class="wrap sheet__grid">
+    <div class="rail reveal">---About me---</div>
+    <div>
+      <h2 id="h-about" class="reveal">Hello, I&rsquo;m Daivaansh.</h2>
+      <div class="prose reveal">
+        <!-- EDIT: about text -->
+        <p class="dropcap">I am a Computer Science and Engineering student at Sir M. Visvesvaraya Institute of Technology, and I am also pursuing a BBA in Digital Business and Entrepreneurship at IIM Bangalore.</p>
+        <p>I work at the intersection of technology, business and finance, with interests spanning entrepreneurship, business development, strategic partnerships, fintech, investment banking and quantitative finance.</p>
+        <p>I&rsquo;m fascinated by the mechanics behind businesses and financial markets &mdash; how capital moves, how technology creates opportunities, how data drives decisions and how strategy translates into competitive advantage.</p>
+        <p>I approach problems with an engineer&rsquo;s analytical mindset and a business-oriented perspective. I value ideas, but I&rsquo;m more interested in their execution, scalability and ability to create measurable value.</p>
+        <p>Beyond academics: student leadership, executive support, relationship-building and strategic initiatives.</p>
+        <p class="lead pull">I don&rsquo;t just look at how things work. I look at what makes them work better, scale faster and create value.</p>
+        <!-- The name is drawn as outlines in Lucida Calligraphy, so it looks the same on every device. -->
+        <div class="sign"><strong><svg class="sig" viewBox="8 -88 1080 92" role="img" aria-label="Daivaansh Chandok" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M34.3 1.1L10.3 0L17.5-7.2L18.2-7.3Q18.5-7.4 19.5-7.3L19.5-7.3Q20.0-7.2 20.6-7.2L20.6-7.2Q25.9-7.2 28.6-10.5Q31.3-13.7 33.0-22.1L33.0-22.1L42.2-68.5Q32.1-68.5 25.9-63.1Q19.7-57.7 19.7-49.0L19.7-49.0L19.7-47.9L10.3-43.3Q12.8-72.3 52.0-72.3L52.0-72.3L66.1-72.3Q82.4-72.3 89.6-66.2Q96.8-60.1 96.8-46.3L96.8-46.3Q96.8-24.0 81.4-11.4Q66.0 1.2 38.9 1.2L38.9 1.2Q37.7 1.2 34.3 1.1L34.3 1.1ZM27.9-6.2L27.9-6.2L36.6-4.7Q43.7-3.5 51.0-3.5L51.0-3.5Q61.1-3.5 66.7-6.2Q72.3-9.0 77.1-16.3L77.1-16.3Q85.5-29.2 85.5-45.0L85.5-45.0Q85.5-69.3 58.7-69.3L58.7-69.3L52.6-69.3L45.1-31.8Q43.1-21.6 39.6-16.4Q36.1-11.2 27.9-6.2ZM142.9-14.5L145.3-26.5L144.4-26.5Q138.9-14.3 131.1-6.5Q123.3 1.2 116.6 1.2L116.6 1.2Q106.3 1.2 106.3-11.7L106.3-11.7Q106.3-25.9 117.6-39.5L117.6-39.5Q129.3-53.6 146.2-53.6L146.2-53.6Q153.2-53.6 160.8-53.0L160.8-53.0L157.3-38.6L152.5-14.5Q151.4-8.8 151.4-7.1L151.4-7.1Q151.4-4.1 154.3-4.1L154.3-4.1Q159.2-4.1 168.8-14.8L168.8-14.8L168.0-10.3Q157.3 1.2 148.8 1.2L148.8 1.2Q141.7 1.2 141.7-6.2L141.7-6.2Q141.7-8.6 142.9-14.5L142.9-14.5ZM147.0-35.0L149.2-46.0Q143.0-48.8 137.0-48.8L137.0-48.8Q128.1-48.8 122.8-37.5L122.8-37.5Q116.6-24.3 116.6-13.7L116.6-13.7Q116.6-6.0 121.0-6.0L121.0-6.0Q125.2-6.0 133.1-14.8Q141.0-23.6 147.0-35.0L147.0-35.0ZM207.3-14.8L207.3-14.8L206.4-10.3Q195.8 1.2 187.3 1.2L187.3 1.2Q180.2 1.2 180.2-6.2L180.2-6.2Q180.2-8.6 181.3-14.4L181.3-14.4L184.7-31.3Q186.1-38.6 186.1-41.0L186.1-41.0Q186.1-45.1 182.9-45.1L182.9-45.1Q180.7-45.1 175.0-43.4L175.0-43.4L175.6-46.4L199.5-54.2L195.8-38.6L191.0-14.5Q189.9-8.8 189.9-7.2L189.9-7.2Q189.9-4.1 192.8-4.1L192.8-4.1Q197.6-4.1 207.3-14.8ZM202.2-69.3L189.4-62.7L192.7-69.3L206.4-78.3L202.2-69.3ZM237.2 0L232.0 1.2L232.2-5.4Q232.2-24.7 228.7-35.9Q225.2-47.0 219.2-47.0L219.2-47.0Q213.1-47.0 206.3-35.3L206.3-35.3L207.7-42.5Q216.6-54.2 224.2-54.2L224.2-54.2Q241.1-54.2 241.1-11.5L241.1-11.5L241.1-8.8L245.1-13.6Q262.9-35.1 262.9-44.9L262.9-44.9Q262.9-49.5 259.7-53.0L259.7-53.0L270.2-54.2Q272.6-50.6 272.6-47.7L272.6-47.7Q272.6-43.6 269.2-38.5Q265.9-33.3 254.7-20.4L254.7-20.4L237.2 0ZM317.8-14.5L320.2-26.5L319.3-26.5Q313.8-14.3 306.1-6.5Q298.3 1.2 291.5 1.2L291.5 1.2Q281.2 1.2 281.2-11.7L281.2-11.7Q281.2-25.9 292.5-39.5L292.5-39.5Q304.2-53.6 321.1-53.6L321.1-53.6Q328.1-53.6 335.7-53.0L335.7-53.0L332.2-38.6L327.5-14.5Q326.4-8.8 326.4-7.1L326.4-7.1Q326.4-4.1 329.2-4.1L329.2-4.1Q334.1-4.1 343.8-14.8L343.8-14.8L342.9-10.3Q332.2 1.2 323.7 1.2L323.7 1.2Q316.7 1.2 316.7-6.2L316.7-6.2Q316.7-8.6 317.8-14.5L317.8-14.5ZM321.9-35.0L324.1-46.0Q318.0-48.8 312.0-48.8L312.0-48.8Q303.1-48.8 297.8-37.5L297.8-37.5Q291.5-24.3 291.5-13.7L291.5-13.7Q291.5-6.0 296.0-6.0L296.0-6.0Q300.2-6.0 308.1-14.8Q316.0-23.6 321.9-35.0L321.9-35.0ZM384.7-14.5L387.1-26.5L386.2-26.5Q380.7-14.3 372.9-6.5Q365.1 1.2 358.3 1.2L358.3 1.2Q348.0 1.2 348.0-11.7L348.0-11.7Q348.0-25.9 359.4-39.5L359.4-39.5Q371.1-53.6 388.0-53.6L388.0-53.6Q395.0-53.6 402.6-53.0L402.6-53.0L399.1-38.6L394.3-14.5Q393.2-8.8 393.2-7.1L393.2-7.1Q393.2-4.1 396.1-4.1L396.1-4.1Q401.0-4.1 410.6-14.8L410.6-14.8L409.8-10.3Q399.1 1.2 390.6 1.2L390.6 1.2Q383.5 1.2 383.5-6.2L383.5-6.2Q383.5-8.6 384.7-14.5L384.7-14.5ZM388.8-35.0L391.0-46.0Q384.8-48.8 378.8-48.8L378.8-48.8Q369.9-48.8 364.6-37.5L364.6-37.5Q358.3-24.3 358.3-13.7L358.3-13.7Q358.3-6.0 362.8-6.0L362.8-6.0Q367.0-6.0 374.9-14.8Q382.8-23.6 388.8-35.0L388.8-35.0ZM429.3 0L419.0 0.6L422.6-14.5L427.4-38.6Q428.5-44.2 428.5-45.9L428.5-45.9Q428.5-48.9 425.6-48.9L425.6-48.9Q420.8-48.9 411.1-38.2L411.1-38.2L412.0-42.7Q422.6-54.2 431.2-54.2L431.2-54.2Q438.2-54.2 438.2-46.9L438.2-46.9Q438.2-44.4 437.1-38.6L437.1-38.6L434.7-26.5L435.4-26.5Q441.5-39.0 449.2-46.6Q456.9-54.2 463.5-54.2L463.5-54.2Q471.5-54.2 471.5-45.3L471.5-45.3Q471.5-42.4 470.7-38.3L470.7-38.3L466.0-14.5Q464.8-8.8 464.8-7.1L464.8-7.1Q464.8-4.1 467.7-4.1L467.7-4.1Q472.6-4.1 482.3-14.8L482.3-14.8L481.4-10.3Q470.8 1.2 462.2 1.2L462.2 1.2Q455.2 1.2 455.2-6.2L455.2-6.2Q455.2-8.6 456.3-14.5L456.3-14.5L461.1-38.4Q461.7-41.2 461.7-43.1L461.7-43.1Q461.7-47.0 458.7-47.0L458.7-47.0Q449.4-47.0 432.9-17.4L432.9-17.4L429.3 0ZM480.3-1.7L480.3-1.7L486.7-8.3Q493.1-3.6 499.7-3.6L499.7-3.6Q503.7-3.6 506.5-5.7Q509.3-7.9 509.3-11.0L509.3-11.0Q509.3-14.5 503.8-20.5L503.8-20.5L499.3-25.3Q492.8-32.5 492.8-37.3L492.8-37.3Q492.8-43.9 499.1-49.0Q505.4-54.2 513.5-54.2L513.5-54.2Q518.0-54.2 523.5-52.3L523.5-52.3L521.3-41.6L518.3-41.6L518.4-42.4Q518.5-42.8 518.5-43.4L518.5-43.4Q518.5-50 510.0-50L510.0-50Q500.5-50 500.5-42.4L500.5-42.4Q500.5-38.5 506.2-32.1L506.2-32.1L510.2-27.7Q516.7-20.3 516.7-15.6L516.7-15.6Q516.7-9.0 509.8-3.9Q502.8 1.2 494.0 1.2L494.0 1.2Q487.8 1.2 480.3-1.7ZM540.8 0L530.5 0.6L534.1-14.5L540.8-48.2Q544.3-65.9 554.1-75.7Q563.8-85.5 577.8-85.5L577.8-85.5Q582.6-85.5 586.6-84.5L586.6-84.5L579.9-77.5Q574.2-80.1 570.1-80.1L570.1-80.1Q562.4-80.1 558.4-74.5Q554.5-68.8 551.4-53.0L551.4-53.0L546.1-26.5L546.9-26.5Q553.0-39.0 560.7-46.6Q568.4-54.2 575-54.2L575-54.2Q583.1-54.2 583.1-45.3L583.1-45.3Q583.1-42.4 582.2-38.3L582.2-38.3L577.5-14.5Q576.4-8.8 576.4-7.1L576.4-7.1Q576.4-4.1 579.2-4.1L579.2-4.1Q584.1-4.1 593.8-14.8L593.8-14.8L592.9-10.3Q582.2 1.2 573.7 1.2L573.7 1.2Q566.7 1.2 566.7-6.2L566.7-6.2Q566.7-8.6 567.8-14.5L567.8-14.5L572.6-38.4Q573.1-41.2 573.1-43.1L573.1-43.1Q573.1-47.0 570.2-47.0L570.2-47.0Q560.9-47.0 544.3-17.4L544.3-17.4L540.8 0ZM687.6-9.1L686.7-4.4Q671.2 1.8 659.5 1.8L659.5 1.8Q646.9 1.8 639.9-5.3Q633.0-12.4 633.0-25.2L633.0-25.2Q633.0-45.6 646.3-59.8Q659.6-74.1 678.5-74.1L678.5-74.1Q689.8-74.1 699.5-71.2L699.5-71.2L695.3-57.8L692.2-57.8Q692.7-60.1 692.7-61.6L692.7-61.6Q692.7-65.8 688.1-68.5Q683.4-71.1 676.0-71.1L676.0-71.1Q664.8-71.1 656.4-61.1L656.4-61.1Q650.9-54.5 647.4-44.8Q643.8-35.0 643.8-26.3L643.8-26.3Q643.8-15.7 649.4-9.7Q654.9-3.6 664.6-3.6L664.6-3.6Q675.4-3.6 687.6-9.1L687.6-9.1ZM708.8 0L698.5 0.6L702.1-14.5L708.8-48.2Q712.3-65.9 722.0-75.7Q731.8-85.5 745.8-85.5L745.8-85.5Q750.6-85.5 754.5-84.5L754.5-84.5L747.9-77.5Q742.1-80.1 738.1-80.1L738.1-80.1Q730.3-80.1 726.4-74.5Q722.5-68.8 719.4-53.0L719.4-53.0L714.1-26.5L714.9-26.5Q720.9-39.0 728.7-46.6Q736.4-54.2 743.0-54.2L743.0-54.2Q751.0-54.2 751.0-45.3L751.0-45.3Q751.0-42.4 750.2-38.3L750.2-38.3L745.5-14.5Q744.3-8.8 744.3-7.1L744.3-7.1Q744.3-4.1 747.2-4.1L747.2-4.1Q752.1-4.1 761.8-14.8L761.8-14.8L760.9-10.3Q750.2 1.2 741.7 1.2L741.7 1.2Q734.7 1.2 734.7-6.2L734.7-6.2Q734.7-8.6 735.8-14.5L735.8-14.5L740.6-38.4Q741.1-41.2 741.1-43.1L741.1-43.1Q741.1-47.0 738.2-47.0L738.2-47.0Q728.9-47.0 712.3-17.4L712.3-17.4L708.8 0ZM802.1-14.5L804.5-26.5L803.6-26.5Q798.1-14.3 790.3-6.5Q782.6 1.2 775.8 1.2L775.8 1.2Q765.5 1.2 765.5-11.7L765.5-11.7Q765.5-25.9 776.8-39.5L776.8-39.5Q788.5-53.6 805.4-53.6L805.4-53.6Q812.4-53.6 820.0-53.0L820.0-53.0L816.5-38.6L811.8-14.5Q810.6-8.8 810.6-7.1L810.6-7.1Q810.6-4.1 813.5-4.1L813.5-4.1Q818.4-4.1 828.1-14.8L828.1-14.8L827.2-10.3Q816.5 1.2 808.0 1.2L808.0 1.2Q800.9 1.2 800.9-6.2L800.9-6.2Q800.9-8.6 802.1-14.5L802.1-14.5ZM806.2-35.0L808.4-46.0Q802.2-48.8 796.2-48.8L796.2-48.8Q787.4-48.8 782.0-37.5L782.0-37.5Q775.8-24.3 775.8-13.7L775.8-13.7Q775.8-6.0 780.3-6.0L780.3-6.0Q784.5-6.0 792.4-14.8Q800.2-23.6 806.2-35.0L806.2-35.0ZM846.7 0L836.4 0.6L840.0-14.5L844.8-38.6Q845.9-44.2 845.9-45.9L845.9-45.9Q845.9-48.9 843.1-48.9L843.1-48.9Q838.3-48.9 828.5-38.2L828.5-38.2L829.4-42.7Q840.0-54.2 848.6-54.2L848.6-54.2Q855.6-54.2 855.6-46.9L855.6-46.9Q855.6-44.4 854.5-38.6L854.5-38.6L852.1-26.5L852.8-26.5Q858.9-39.0 866.6-46.6Q874.3-54.2 881.0-54.2L881.0-54.2Q889.0-54.2 889.0-45.3L889.0-45.3Q889.0-42.4 888.1-38.3L888.1-38.3L883.4-14.5Q882.3-8.8 882.3-7.1L882.3-7.1Q882.3-4.1 885.2-4.1L885.2-4.1Q890.0-4.1 899.8-14.8L899.8-14.8L898.8-10.3Q888.2 1.2 879.6 1.2L879.6 1.2Q872.6 1.2 872.6-6.2L872.6-6.2Q872.6-8.6 873.8-14.5L873.8-14.5L878.5-38.4Q879.1-41.2 879.1-43.1L879.1-43.1Q879.1-47.0 876.2-47.0L876.2-47.0Q866.8-47.0 850.3-17.4L850.3-17.4L846.7 0ZM940.0-14.5L942.4-26.5L941.6-26.5Q935.9-14.2 928.2-6.5Q920.5 1.2 913.8 1.2L913.8 1.2Q903.4 1.2 903.4-11.7L903.4-11.7Q903.4-20.5 908.5-30.1Q913.5-39.7 921.5-46.3L921.5-46.3Q926.9-50.6 932.3-52.1Q937.6-53.6 947.9-53.6L947.9-53.6Q950.7-63.3 953.9-68.4Q957.0-73.5 962.6-77.9L962.6-77.9Q972.3-85.5 984.0-85.5L984.0-85.5Q988.8-85.5 992.8-84.5L992.8-84.5L986.1-77.6Q980.3-80.1 976.2-80.1L976.2-80.1Q968.4-80.1 964.5-74.4Q960.5-68.8 957.4-53.1L957.4-53.1L949.7-14.5Q948.5-8.8 948.5-7.2L948.5-7.2Q948.5-4.1 951.4-4.1L951.4-4.1Q956.3-4.1 966.0-14.8L966.0-14.8L965.1-10.3Q954.4 1.2 945.9 1.2L945.9 1.2Q938.9 1.2 938.9-6.2L938.9-6.2Q938.9-8.5 940.0-14.5L940.0-14.5ZM944.1-35.0L946.3-46.0Q940.3-48.8 934.1-48.8L934.1-48.8Q925.3-48.8 920.0-37.5L920.0-37.5Q913.7-24.3 913.7-13.7L913.7-13.7Q913.7-6.0 918.2-6.0L918.2-6.0Q922.4-6.0 930.3-14.8Q938.2-23.7 944.1-35.0L944.1-35.0ZM985.9 1.2L985.9 1.2Q979.5 1.2 975.3-3.8Q971.0-8.8 971.0-16.3L971.0-16.3Q971.0-30.3 981.6-42.3Q992.3-54.2 1004.8-54.2L1004.8-54.2Q1011.6-54.2 1016.0-49.3Q1020.4-44.4 1020.4-36.9L1020.4-36.9Q1020.4-22.3 1009.8-10.5Q999.1 1.2 985.9 1.2ZM991.5-3.0L991.5-3.0Q998.7-3.0 1004.2-12.3Q1009.7-21.6 1009.7-33.9L1009.7-33.9Q1009.7-50.1 999.9-50.1L999.9-50.1Q992.9-50.1 987.3-40.5Q981.7-30.9 981.7-18.9L981.7-18.9Q981.7-3.0 991.5-3.0ZM1038.6 0L1028.2 0.6L1031.8-14.5L1038.5-48.2Q1042.0-65.9 1051.8-75.7Q1061.5-85.5 1075.5-85.5L1075.5-85.5Q1080.3-85.5 1084.3-84.5L1084.3-84.5L1077.6-77.5Q1071.9-80.1 1067.8-80.1L1067.8-80.1Q1061.3-80.1 1057.1-75.7L1057.1-75.7Q1054.7-73.1 1053.3-69.2Q1051.9-65.3 1049.1-53.0L1049.1-53.0L1044.3-31.7L1044.9-31.7Q1049.5-41.7 1057.0-48.0Q1064.5-54.2 1071.9-54.2L1071.9-54.2Q1080.2-54.2 1080.2-46.2L1080.2-46.2Q1080.2-37.9 1073.4-32.3Q1066.7-26.7 1054.2-24.7L1054.2-24.7Q1068.1-5.4 1074.8-5.4L1074.8-5.4Q1079.1-5.4 1085.4-11.3L1085.4-11.3L1084.7-7.9Q1075 1.2 1069.2 1.2L1069.2 1.2Q1064.5 1.2 1059.7-3.4Q1055.0-8.0 1043.3-23.8L1043.3-23.8L1038.6 0ZM1043.8-26.5L1043.8-26.5L1043.8-25.9L1045.4-25.9Q1055.7-25.9 1063.1-31.4Q1070.6-37.0 1070.6-44.6L1070.6-44.6Q1070.6-49.4 1066.8-49.4L1066.8-49.4Q1058.5-49.4 1043.8-26.5Z"/></svg></strong><span>Student &middot; Computer Science &times; Business</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= 02 ACHIEVEMENTS ========================== -->
+<section class="sheet" id="achievements" aria-labelledby="h-high">
+  <div class="wrap sheet__grid">
+    <div class="rail reveal">---Achievements---</div>
+    <div>
+      <h2 id="h-high" class="reveal">Academics &amp; awards.</h2>
+      <!-- EDIT: figures (from the CV) -->
+      <div class="figures reveal">
+        <div class="fig"><b>99.75<small>%ile</small></b><span>CUET General Test &middot; approx.</span></div>
+        <div class="fig"><b>96<small>%ile</small></b><span>CUET Mathematics</span></div>
+        <div class="fig"><b>95<small>%</small></b><span>Class 10</span></div>
+        <div class="fig"><b>83<small>%</small></b><span>Class 12</span></div>
+      </div>
+      <ul class="honours reveal">
+        <li><em>2026</em><div><strong>Finalist &mdash; SAP Hackfest 2026</strong></div></li>
+        <li><em>SMVIT</em><div><strong>Second place &mdash; &ldquo;Investors Dilemma&rdquo;</strong><small>Competition at Sir M. Visvesvaraya Institute of Technology</small></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========================== 03 PROJECTS ============================= -->
+<section class="sheet" id="projects" aria-labelledby="h-vent">
+  <div class="wrap sheet__grid">
+    <div class="rail reveal">---Projects---</div>
+    <div>
+      <h2 id="h-vent" class="reveal">Things I am building.</h2>
+      <!-- EDIT: projects. To add a case study, put a <details> block inside a card. -->
+      <div class="holdings">
+        <article class="holding reveal">
+          <small>Project 01</small>
+          <h3>Avance</h3>
+          <p class="tagline">A game layer for real-world work.</p>
+          <p>A professional extension for educational institutes to keep students in progress.</p>
+          <div class="stage">Education &middot; Product</div>
+        </article>
+        <article class="holding reveal">
+          <small>Project 02</small>
+          <h3>AI CFO</h3>
+          <p class="tagline">Finance, in conversation.</p>
+          <p>A business-focused AI finance assistant concept, exploring how AI could support business finance and CFO-oriented workflows.</p>
+          <div class="stage">Fintech &middot; Concept</div>
+        </article>
+        <article class="holding reveal">
+          <small>Project 03</small>
+          <h3>TROVE</h3>
+          <p class="tagline">Buy, sell, discover.</p>
+          <p>A reseller marketplace concept focused on buying, selling and discovering products.</p>
+          <div class="stage">Marketplace &middot; Concept</div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================== 04 EDUCATION ============================ -->
+<section class="sheet" id="education" aria-labelledby="h-edu">
+  <div class="wrap sheet__grid">
+    <div class="rail reveal">---Education---</div>
+    <div>
+      <h2 id="h-edu" class="reveal">Where I study.</h2>
+      <!-- EDIT: education -->
+      <ul class="ledger reveal">
+        <li><h3>Sir M. Visvesvaraya Institute of Technology</h3><p>Computer Science and Engineering</p><span class="stat">Pursuing</span></li>
+        <li><h3>Indian Institute of Management Bangalore</h3><p>BBA &mdash; Digital Business and Entrepreneurship (DBE)</p><span class="stat">Pursuing</span></li>
+        <li><h3>Finlatics</h3><p>Financial Markets Program</p><span class="stat">In progress</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= 05 LEADERSHIP ============================ -->
+<section class="sheet" id="leadership" aria-labelledby="h-gov">
+  <div class="wrap sheet__grid">
+    <div class="rail reveal">---Leadership---</div>
+    <div>
+      <h2 id="h-gov" class="reveal">Leadership &amp; experience.</h2>
+      <!-- EDIT: roles -->
+      <ul class="ledger ledger--roles reveal">
+        <li><h3>Deputy Head Boy</h3><p>Held a student leadership position, contributing to school leadership and student responsibilities.</p><span class="stat">School</span></li>
+        <li><h3>CCA Captain</h3><p>Served as captain in co-curricular activities, taking on a student leadership role.</p><span class="stat">School</span></li>
+        <li><h3>Assistant to the CEO</h3><p>Supported communication with the team in the local language and assisted with content creation.</p><span class="stat">RVM CAD</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= 06 INTERESTS ============================= -->
+<section class="sheet" id="interests" aria-labelledby="h-int">
+  <div class="wrap sheet__grid">
+    <div class="rail reveal">---Interests---</div>
+    <div>
+      <h2 id="h-int" class="reveal">What I&rsquo;m curious about.</h2>
+      <!-- EDIT: interests -->
+      <ol class="principles reveal">
+        <li><h3>Finance &amp; investment banking</h3><p>How capital moves, and how markets and businesses are valued.</p></li>
+        <li><h3>Technology, AI &amp; fintech</h3><p>How technology creates opportunities and how data drives decisions.</p></li>
+        <li><h3>Entrepreneurship</h3><p>Ideas judged by their execution, scalability and measurable value.</p></li>
+        <li><h3>Partnerships &amp; business development</h3><p>Relationship-building and strategic initiatives that turn strategy into advantage.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ 07 CONTACT ============================ -->
+<section class="close" id="contact" aria-labelledby="h-contact">
+  <div class="wrap sheet__grid">
+    <div class="rail reveal">---Contact---</div>
+    <div class="reveal">
+      <h2 id="h-contact">Say hello.</h2>
+      <p>I&rsquo;d love to talk about internships, partnerships, business development and technology-enabled ideas.</p>
+      <!-- EDIT: email, and add LinkedIn etc. as more links below -->
+      <a class="mail" href="mailto:chandokdaivaansh@gmail.com">chandokdaivaansh@gmail.com</a>
+      <ul class="links">
+        <li><a href="https://www.linkedin.com/in/daivaansh-chandok-1142a2444" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">&nearr;</span><span class="sr"> (opens in a new tab)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <svg aria-hidden="true"><use href="#seal"/></svg>
+    <p>&copy; 2026 Daivaansh Chandok &middot; All rights reserved</p>
+  </div>
+</footer>
+</body>
+</html>
